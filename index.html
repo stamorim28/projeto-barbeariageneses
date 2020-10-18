@@ -2,18 +2,16 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=3, initial-scale=1.0">
   <link rel="shortcut icon" href="images/G.png" type="image/x-icon">
   <link rel="stylesheet" href="css/style.css">
   <link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Sanchez&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
-  <meta name="viewport" content="width=3, initial-scale=1.0">
   <title>Barbearia Gêneses</title>
 </head>
 <body>
-
-
   <main class="teste-menu" id="teste-menu">
     <div class="logo-menu">
       <a href="index.html"><img src="images/NOVALOGO-2.webp" class="logotipo" alt="logo"></a>
@@ -31,7 +29,7 @@
   <section class="icones">
     <a href="https://www.instagram.com/barbearia_geneses_/" target="_blank" 
     data-anime="left"><i class="fab fa-instagram" aria-hidden="true"></i></a>
-    <a href="#mapa" data-anime="left"><i class="fas fa-map-marker-alt" aria-hidden="true"></i></a>
+    <a href="https://wa.me//558195652062" target="_blank" data-anime="left"><i class="fab fa-whatsapp" aria-hidden="true"></i></a>
   </section>
 
   <section class="sessao" >
@@ -41,21 +39,21 @@
   </section>
 
   <section class="precos" id="precos">
-    <h1 class="seg" data-anime="top">Seg á Sáb - 8h30 ás 12h | 14h ás 17h30</h1>
+    <h1 class="seg" data-anime="top">Seg á Sáb - 8h ás 12h | 14h ás 17h30</h1>
     <h1 class="dom" data-anime="top">Dom - 9h ás 12h</h1>
-    <h3>Siga-nos no <a href="https://www.instagram.com/barbearia_geneses_/" target="_blank">Instagram</a> para informações diárias de nosso funcionamento.</h3>
+    <h3>Siga-nos no <a href="https://www.instagram.com/barbearia_geneses_/" target="_blank">Instagram</a> para informações diárias de nosso funcionamento ou entre em contato pelo <a href="https://wa.me//558195652062" target="_blank">Whatsapp</a> para mais detalhes.</h3>
     <div class="tebela" data-anime="left">
       <ul>
-        <h2>Cabelo</h2>
+        <h2>Cabelo Social</h2>
         <p>R$ 12</p>
       </ul>
       <ul>
-        <h2>Barba</h2>
-        <p>R$ 8</p>
+        <h2>Degradê c/ Zero ou Um</h2>
+        <p>R$ 15</p>
       </ul>
       <ul>
-        <h2>Cabelo + Barba</h2>
-        <p>R$ 20</p>
+        <h2>Barba</h2>
+        <p>R$ 10</p>
       </ul>
       <ul>
         <h2>Sobrancelha</h2>
@@ -125,9 +123,18 @@
     </div>
   </footer>
 
-  
-  <script src="pace.min.js"></script>
-  <script src="main.js"></script>
+  <div id="pre" class="preloader">
+    <img class="load-img" src="./images/load.webp" alt="loading">
+    <div id="load" class="load"></div>
+  </div>
 
+  
 </body>
+  <script src="js/script.js"></script>
+  <script src="js/main.js"></script>
+  <script>
+    $(window).on("load", function(){
+      $(".preloader").fadeOut("slow");
+  })
+  </script>
 </html>
