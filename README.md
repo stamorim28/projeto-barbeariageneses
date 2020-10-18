@@ -7,4 +7,4 @@ Projeto feito para cliente, preciso trabalhar nas media queries futuramente, ten
 
 Layout do site feito no Photoshop, o logotipo da barbearia também foi feito por mim.
 
-Atualizações: Tela de loading com jQuery e úsuario agora pode entrar em contato com o proprietário através do whatsapp.
+Atualizações: Tela de loading com jQuery e usuário agora pode entrar em contato com o proprietário através do whatsapp.
