@@ -1,5 +1,5 @@
 # Projeto - Barbearia Gêneses
-## Feito em CSS Puro e sem frameworks
+## Feito em CSS Puro
 
 Link - https://barbeariageneses2019.web.app/
 
